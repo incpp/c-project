@@ -14,9 +14,11 @@ int main()
 
     printf("Celsius    Fahr\n");
 
-    for (c = 0; c <=  300; c = c+40)
+    for (c = 0; f <=  300; c = c+40)
     {
         f = c_to_f(c);
         printf("%.0f    %.1f\n", c, f);
     }
 }
+
+
